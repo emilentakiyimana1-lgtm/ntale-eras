@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: serif;
+    background: #0b0b0b;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.logo {
+    color: gold;
+    font-size: 24px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    height: 100vh;
+    background: url('hero.jpg') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 70px;
+    color: gold;
+}
+
+.btn {
+    border: 1px solid gold;
+    padding: 12px 30px;
+    color: gold;
+    text-decoration: none;
+}
+
+.section {
+    padding: 80px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    width: 250px;
+}
+
+.card img {
+    width: 100%;
+}
+
+button {
+    background: gold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
